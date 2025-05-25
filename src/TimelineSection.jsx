@@ -6,7 +6,7 @@ const TimelineSection = ({ data, isEducation = false }) => (
     <div key={index} className="flex gap-6 relative">
         {/* Timeline line and dot */}
         <div className="flex flex-col items-center">
-        <div className="w-3 h-3 bg-teal-600 rounded-full z-10"></div>
+        <div className="w-3 h-3 bg-teal-600 rounded-full z-5"></div>
         {index !== data.length - 1 && (
             <div className="w-px bg-teal-300 flex-1 mt-1" />
         )}
